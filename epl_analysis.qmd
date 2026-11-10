@@ -12,7 +12,7 @@ library(RMariaDB)
 
 football <- dbConnect(MariaDB(),
    user='stat286', 
-   password='Cougars24!', 
+   password='**********', 
    dbname='football',
     host='statdb.byu.edu',
     bigint = 'numeric')
